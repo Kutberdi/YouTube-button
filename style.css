@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 300px;
+    margin-right: 100px;
+}
+
+.buttons button{
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 200px;
+    height: 130px;
+    cursor: pointer;
+    font-size: 40px;
+    letter-spacing: 3px;
+    box-shadow: 3px 3px 30px 1px black;
+}
+
+.buttons button:hover{
+    width: 230px;
+    height: 160px;
+    transition: 0.7s;
+    box-shadow: 3px 3px 100px 5px rgb(139, 4, 4);
+}
