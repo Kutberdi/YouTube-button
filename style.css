@@ -1,9 +1,7 @@
 body{
     display: flex;
     justify-content: center;
-    align-items: center;  
-    margin-top: 300px;
-    margin-right: 100px;
+    margin-top: 280px;
 }
 
 .buttons button{
